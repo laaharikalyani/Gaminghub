@@ -1,0 +1,112 @@
+   
+  body,header,footer{ 
+   background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    
+    background-image: url("pexels-pixabay-220072.jpg");
+    align-items: center;
+}
+
+
+
+#heading{
+    text-align: center;
+    margin: auto;
+    font-size: 32px;
+    color: whitesmoke;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 7rem;
+    
+}
+.flappy,.tic-tac-toe,.snake-game,.classic{
+    height: 200px;
+    width: 150px;
+    border: 1px solid black;
+    border-radius: 1rem;
+    align-items: center;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.games{
+    
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center; 
+    background-color: #f6d365;
+    width: 75%;
+    margin: auto;
+    margin-top: 70px;
+    
+    
+}
+.flappy img{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border-radius: 1rem;
+
+}
+.tic-tac-toe img{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border-radius: 1rem;
+
+}
+.snake-game img{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border-radius: 1rem;
+
+}
+.classic img{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    border-radius: 1rem;
+
+}
+button{
+    display: block; 
+    margin-top: 10px;   
+    position: absolute;
+    margin-top: 150px;
+    width: 100px;
+    font-size: 22px;
+    height: 35px;
+    background-color: darkorange;
+}
+button:hover{
+    cursor:pointer;
+    height: 40px;
+}
+button img{
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    align-self: center;
+   top: 18%;
+}
+img:hover{
+    cursor: pointer;
+
+    opacity: 0.7;
+}
+label{
+    color: aliceblue;
+}
+.quiz{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    margin-top: 30px;
+}
+#playQuiz{
+    
+    margin-top: 30px;
+    height: 40px;
+    
+}

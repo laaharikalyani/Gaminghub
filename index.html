@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link
+rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Gaming Hub</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/TypewriterJS/2.21.0/core.min.js" integrity="sha512-fo6X5UXaTRf/mHuTYJBR3Q/rpPa+LB2KUyDMROluMkZnfEEF4DhQyI5AHRoAe/zzu1Ty58MMmZXG4SuVEpXsng==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        .Typewriter__cursor{
+            color: red;
+        }
+    </style>
+</head>
+<header>
+    <nav>
+        <div id="heading">
+            <h1>Gaming Hub</h1>
+        </div>
+        
+    </nav>
+</header>
+<body>
+    <div class="quiz">
+        <label class="animate__animated animate__flash">Find the Best Game for You! </label>
+        <button id="playQuiz">Lets Go!</button>
+        </div>
+    <div class="games">
+        <div class="row1">
+            <h5>Flappy Bird</h5>
+ <div class="flappy">
+   
+ <img src="Screenshot 2024-06-01 151354.png" alt="flappy bird">
+ <br>
+ <button id="playFlappy">Play&nbsp;<img src="./play-button.png" alt="" style=" height:20px; width: 20px;"></button>
+
+ </div>
+ <h5>Memory Game</h5>
+ <div class="tic-tac-toe">
+    <img src="./memory.jpg" alt="">
+    <button id="play-tic-tac-toe">Play&nbsp;<img src="./play-button.png" alt="" style=" height:20px; width: 20px;"></button>
+
+ </div>
+</div>
+<div class="row2">
+    <h5>Snake Game</h5>
+ <div class="snake-game">
+    <img src="./snakeGame.png" alt="">
+    <button id="playSnakeGame">Play&nbsp;<img src="./play-button.png" alt="" style=" height:20px; width: 20px;"></button>
+ </div>
+ <h5>2048</h5>
+  <div class="classic">
+    <img src="classic.jpg" alt="">
+    
+    <button id="play2048">Play&nbsp;
+        <img src="./play-button.png" alt="" style=" height:20px; width: 20px;">
+    </button>
+  </div>
+</div>
+<div class="backspace-info">
+    
+</div>
+
+</body>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"> </script>
+    <script>
+        var Typewriter= new Typewriter('#heading',{
+        loop:true,
+        });
+    Typewriter.start();
+    Typewriter.typeString("Welcome to Gaming Hub");
+    </script>
+</html>
